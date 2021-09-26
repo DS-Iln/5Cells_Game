@@ -1,0 +1,40 @@
+*, *::before, *::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    overflow: hidden;
+}
+
+table
+{
+    width: 100vw;
+    height: 100vh;
+    table-layout: fixed;
+}
+
+td
+{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.gamer1
+{
+    background: red;
+}
+
+.gamer2
+{
+    background: green;
+}
+
+.gamer3
+{
+    background: orangered;
+}
